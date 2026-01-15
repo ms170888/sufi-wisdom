@@ -1,0 +1,61 @@
+# Sufi Wisdom - robots.txt
+# https://sufiwisdom.com/robots.txt
+
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Disallow crawling of legal pages (optional indexing control)
+# These are still accessible but less prioritized for search
+Disallow: /legal/
+
+# Disallow crawling of source files
+Disallow: /src/
+
+# Specific bot rules
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Yandex
+User-agent: Yandex
+Allow: /
+Crawl-delay: 2
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Block AI training bots (optional - preserves content for intended use)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+# Sitemap location
+Sitemap: https://sufiwisdom.com/sitemap.xml
+
+# Host directive (for Yandex)
+Host: https://sufiwisdom.com

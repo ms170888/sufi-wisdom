@@ -1,0 +1,62 @@
+{
+  "name": "sufi-wisdom",
+  "version": "1.0.0",
+  "description": "Sufi Wisdom - Timeless Spiritual Teachings for Modern Seekers. Discover Rumi, Hafiz, and the poetry that has guided souls for 800 years.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve . -l 3000",
+    "build": "echo 'Static site - no build required'",
+    "lint:css": "npx stylelint 'src/styles/**/*.css'",
+    "lint:js": "npx eslint 'src/lib/**/*.js'",
+    "lint": "npm run lint:css && npm run lint:js",
+    "format": "npx prettier --write '**/*.{html,css,js,json}'",
+    "test": "echo 'No tests configured yet'",
+    "validate": "npx html-validate '*.html' 'legal/*.html'"
+  },
+  "keywords": [
+    "sufism",
+    "sufi",
+    "poetry",
+    "rumi",
+    "hafiz",
+    "bulleh-shah",
+    "islamic-mysticism",
+    "spiritual",
+    "meditation",
+    "dhikr",
+    "whirling",
+    "spiritual-teachings"
+  ],
+  "author": {
+    "name": "Sufi Wisdom",
+    "email": "hello@sufiwisdom.com",
+    "url": "https://sufiwisdom.com"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sufiwisdom/sufi-wisdom.git"
+  },
+  "homepage": "https://sufiwisdom.com",
+  "bugs": {
+    "email": "hello@sufiwisdom.com"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "html-validate": "^8.9.0",
+    "prettier": "^3.2.0",
+    "serve": "^14.2.0",
+    "stylelint": "^16.2.0",
+    "stylelint-config-standard": "^36.0.0"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ]
+}

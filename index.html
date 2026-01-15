@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sufi Wisdom - Timeless Spiritual Teachings for Modern Seekers. Discover Rumi, Hafiz, and the poetry that has guided souls for 800 years.">
+    <meta name="keywords" content="Sufism, Sufi Poetry, Rumi, Hafiz, Islamic Mysticism, Spiritual Wisdom, Whirling, Meditation">
+    <meta property="og:title" content="Sufi Wisdom - The Love That Has No Opposite">
+    <meta property="og:description" content="Eight centuries of mystical poetry and practice for finding peace in a chaotic world.">
+    <meta property="og:type" content="website">
+    <title>Sufi Wisdom - Timeless Spiritual Teachings</title>
+    <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <nav class="main-nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="index.html" class="logo" aria-label="Sufi Wisdom Home">
+                <span class="logo-icon" aria-hidden="true">&#10057;</span>
+                <span class="logo-text">Sufi Wisdom</span>
+            </a>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" role="menubar">
+                <li role="none"><a href="index.html" class="active" role="menuitem" aria-current="page">Home</a></li>
+                <li role="none"><a href="about.html" role="menuitem">About Sufism</a></li>
+                <li role="none"><a href="pricing.html" role="menuitem">Teachings</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">"What You Seek Is Seeking You"</h1>
+            <p class="hero-subtitle">Rumi wrote that 800 years ago. It still answers what you're asking.</p>
+            <p class="hero-description">
+                Sufism is not a religion - it's the heart of all religions.
+                For eight centuries, poets and mystics from Persia to Pakistan have mapped the inner landscape
+                of the soul. Their insights on love, loss, purpose, and the divine speak as clearly today
+                as when they were first sung in medieval courts.
+            </p>
+            <a href="#discovery" class="cta-button">Begin The Journey</a>
+        </div>
+        <div class="hero-symbols" aria-hidden="true">
+            <span class="floating-symbol" style="--delay: 0s;">&#10057;</span>
+            <span class="floating-symbol" style="--delay: 1s;">&#10022;</span>
+            <span class="floating-symbol" style="--delay: 2s;">&#128330;</span>
+            <span class="floating-symbol" style="--delay: 3s;">&#10084;</span>
+            <span class="floating-symbol" style="--delay: 4s;">&#10024;</span>
+        </div>
+    </header>
+
+    <main id="main-content">
+    <section id="discovery" class="calculator-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Discover Your Spiritual Path</h2>
+                <p>A brief reflection to guide your learning</p>
+            </div>
+
+            <form id="sufi-form" class="sufi-form" aria-label="Spiritual path discovery">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+
+                <div class="quiz-question">
+                    <p class="question-text">1. When you feel most lost, you tend to...</p>
+                    <div class="radio-group">
+                        <label class="radio-label"><input type="radio" name="q1" value="nature" required> Seek solace in nature or solitude</label>
+                        <label class="radio-label"><input type="radio" name="q1" value="people"> Turn to loved ones or community</label>
+                        <label class="radio-label"><input type="radio" name="q1" value="art"> Lose yourself in music, poetry, or art</label>
+                        <label class="radio-label"><input type="radio" name="q1" value="action"> Take action - doing something helps</label>
+                        <label class="radio-label"><input type="radio" name="q1" value="questions"> Sit with the questions until they transform</label>
+                    </div>
+                </div>
+
+                <div class="quiz-question">
+                    <p class="question-text">2. Your relationship with the divine/spiritual is best described as...</p>
+                    <div class="radio-group">
+                        <label class="radio-label"><input type="radio" name="q2" value="questioning" required> Questioning - I seek but doubt</label>
+                        <label class="radio-label"><input type="radio" name="q2" value="structured"> Structured - I follow traditional practices</label>
+                        <label class="radio-label"><input type="radio" name="q2" value="personal"> Personal - I have my own understanding</label>
+                        <label class="radio-label"><input type="radio" name="q2" value="mystical"> Mystical - I've had experiences I can't explain</label>
+                        <label class="radio-label"><input type="radio" name="q2" value="emerging"> Emerging - I'm just beginning to explore</label>
+                    </div>
+                </div>
+
+                <div class="quiz-question">
+                    <p class="question-text">3. What draws you to Sufi teachings?</p>
+                    <div class="radio-group">
+                        <label class="radio-label"><input type="radio" name="q3" value="poetry" required> The poetry - it speaks to my soul</label>
+                        <label class="radio-label"><input type="radio" name="q3" value="peace"> Seeking inner peace in a chaotic world</label>
+                        <label class="radio-label"><input type="radio" name="q3" value="love"> Understanding love beyond romance</label>
+                        <label class="radio-label"><input type="radio" name="q3" value="heritage"> Connecting with my cultural heritage</label>
+                        <label class="radio-label"><input type="radio" name="q3" value="curious"> Simply curious about the tradition</label>
+                    </div>
+                </div>
+
+                <div class="form-group email-capture">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email for your personalized reading path">
+                    <p class="form-hint">You'll receive curated poems and teachings matched to your responses</p>
+                    <p class="form-hint" style="margin-top: 0.5rem; font-size: 0.8rem; color: #666;">Your privacy matters: We never share or sell your data.</p>
+                </div>
+
+                <button type="submit" class="submit-button">
+                    <span class="button-text">Receive My Path</span>
+                    <span class="button-icon">&#10057;</span>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <section class="discover-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Sufi Wisdom Offers</h2>
+                <p>800 years of refined spiritual technology</p>
+            </div>
+
+            <div class="discover-grid">
+                <div class="discover-card">
+                    <div class="card-icon">&#128214;</div>
+                    <h3>Poetry That Heals</h3>
+                    <p>Rumi, Hafiz, Attar, Bulleh Shah - poets who turned spiritual insight into verses that still move hearts across cultures and centuries.</p>
+                </div>
+
+                <div class="discover-card">
+                    <div class="card-icon">&#10084;</div>
+                    <h3>The Path of Love</h3>
+                    <p>Sufism teaches that love is not just an emotion - it's the fundamental force of the universe. Understanding this transforms every relationship.</p>
+                </div>
+
+                <div class="discover-card">
+                    <div class="card-icon">&#128330;</div>
+                    <h3>Practices & Meditation</h3>
+                    <p>Dhikr (remembrance), breath work, whirling - contemplative practices that quiet the mind and open the heart.</p>
+                </div>
+
+                <div class="discover-card">
+                    <div class="card-icon">&#10024;</div>
+                    <h3>Stations of the Soul</h3>
+                    <p>Maqamat - the spiritual stages from awakening through annihilation of ego to union with the divine. A map for the inner journey.</p>
+                </div>
+
+                <div class="discover-card">
+                    <div class="card-icon">&#127774;</div>
+                    <h3>Living Teachers</h3>
+                    <p>The silsila (chain) of teachers stretches from today's masters back 800 years. Living traditions, not museum pieces.</p>
+                </div>
+
+                <div class="discover-card">
+                    <div class="card-icon">&#128156;</div>
+                    <h3>Healing Grief</h3>
+                    <p>The Sufi understanding of loss and separation as doorways to the divine offers profound comfort for those in mourning.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="poetry-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>A Taste of the Teaching</h2>
+                <p>Words that have guided seekers for eight centuries</p>
+            </div>
+
+            <div class="poetry-grid">
+                <div class="poetry-card">
+                    <blockquote class="poetry-quote">
+                        "Your task is not to seek for love, but merely to seek and find all the barriers within yourself that you have built against it."
+                    </blockquote>
+                    <cite class="poetry-author">- Rumi (13th century, Persia)</cite>
+                </div>
+
+                <div class="poetry-card">
+                    <blockquote class="poetry-quote">
+                        "I wish I could show you, when you are lonely or in darkness, the astonishing light of your own being."
+                    </blockquote>
+                    <cite class="poetry-author">- Hafiz (14th century, Persia)</cite>
+                </div>
+
+                <div class="poetry-card">
+                    <blockquote class="poetry-quote">
+                        "Tear down the mosque, tear down the temple, tear down whatever you will - but never break a human heart. For that is where God lives."
+                    </blockquote>
+                    <cite class="poetry-author">- Bulleh Shah (18th century, Punjab)</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="masters-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>The Great Masters</h2>
+                <p>Voices across centuries and cultures</p>
+            </div>
+
+            <div class="masters-grid">
+                <div class="master-card">
+                    <div class="master-icon">&#10024;</div>
+                    <h3>Jalaluddin Rumi</h3>
+                    <p>Persia, 13th c.</p>
+                    <span class="master-tradition">Mevlevi Order</span>
+                </div>
+
+                <div class="master-card">
+                    <div class="master-icon">&#127801;</div>
+                    <h3>Hafiz of Shiraz</h3>
+                    <p>Persia, 14th c.</p>
+                    <span class="master-tradition">Poet of Love</span>
+                </div>
+
+                <div class="master-card">
+                    <div class="master-icon">&#128156;</div>
+                    <h3>Rabia al-Adawiyya</h3>
+                    <p>Basra, 8th c.</p>
+                    <span class="master-tradition">Mother of Sufism</span>
+                </div>
+
+                <div class="master-card">
+                    <div class="master-icon">&#10057;</div>
+                    <h3>Bulleh Shah</h3>
+                    <p>Punjab, 18th c.</p>
+                    <span class="master-tradition">Qadiri Order</span>
+                </div>
+
+                <div class="master-card">
+                    <div class="master-icon">&#128330;</div>
+                    <h3>Ibn Arabi</h3>
+                    <p>Andalusia, 12th c.</p>
+                    <span class="master-tradition">The Greatest Master</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Modern Seekers, Ancient Wisdom</h2>
+                <p>How Sufi teachings transform contemporary lives</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">"I'm not Muslim, not religious at all. But after my mother died, Rumi's poems on grief were the only thing that made sense. 'Don't grieve. Anything you lose comes round in another form.' That line carried me through."</p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Margaret Chen</span>
+                        <span class="author-title">Professor of Literature, Berkeley</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">"Grew up in a strict Pakistani household where Sufism was considered heterodox. Finding these teachings as an adult felt like coming home. The love and tolerance my parents' religion lacked - it was here all along, in our own heritage."</p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Omar Hassan</span>
+                        <span class="author-title">Physician, Toronto</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">"The dhikr practice changed my relationship with anxiety. Fifteen minutes of rhythmic remembrance each morning - simpler than meditation, more grounding. It's been three years. I haven't needed medication since."</p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Sarah Williams</span>
+                        <span class="author-title">Therapist, London</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section" aria-labelledby="cta-heading">
+        <div class="container">
+            <h2 id="cta-heading">"Out beyond ideas of wrongdoing and rightdoing, there is a field. I'll meet you there."</h2>
+            <p>Begin your exploration of Sufi wisdom. The field is waiting.</p>
+            <a href="#discovery" class="cta-button">Start My Path</a>
+        </div>
+    </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <span class="logo-icon">&#10057;</span>
+                        <span class="logo-text">Sufi Wisdom</span>
+                    </a>
+                    <p>Sharing the timeless teachings of the Sufi mystics with modern seekers. 800 years of love poetry and spiritual practice. Since 2024.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Sufism</a></li>
+                        <li><a href="pricing.html">Teachings</a></li>
+                        <li><a href="results.html">Sample Reading</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="legal/terms.html">Terms of Service</a></li>
+                        <li><a href="legal/privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>Email: hello@sufiwisdom.com</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">&#9679;</a>
+                        <a href="#" aria-label="YouTube">&#9679;</a>
+                        <a href="#" aria-label="Podcast">&#9679;</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sufi Wisdom. All rights reserved.</p>
+                <p class="disclaimer">Sufi teachings are offered for spiritual enrichment and education. We respect all faith traditions.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/lib/bundle.js"></script>
+</body>
+</html>
